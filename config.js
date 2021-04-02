@@ -2,6 +2,9 @@
 function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
+
+var host = window.location.href;
+
 const directCostom="off";//on/off
 const directRandom="no";//yes/no
 var linkDirectRandom=["https://google.com","https://www.youtube.com"];
