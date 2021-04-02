@@ -1,4 +1,6 @@
 //--- costom direct ---
+var host = window.location.href;
+
 function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
