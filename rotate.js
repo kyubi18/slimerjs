@@ -1,11 +1,9 @@
 //--- costom direct ---
-var host = window.location.href;
-
 function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
-const directCostom="off";//on/off
-const directRandom="no";//yes/no
+const directCostom="on";//on/off
+const directRandom="yes";//yes/no
 var linkDirectRandom=["https://google.com","https://www.youtube.com"];
 var linkDirectOne=linkDirectRandom[random(0, (linkDirectRandom.length-1))];
 
@@ -30,7 +28,7 @@ var year = date.d.getFullYear();
 //--- random Post ---
 
 //news - 127 url
-var niche_news [
+var niche_news = [
 	'abc7chicago.com',
 	'abc7news.com',
 	'abc7ny.com',
