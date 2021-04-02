@@ -2,8 +2,8 @@
 function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
-const directCostom="on";//on/off
-const directRandom="yes";//yes/no
+const directCostom="off";//on/off
+const directRandom="no";//yes/no
 var linkDirectRandom=["https://google.com","https://www.youtube.com"];
 var linkDirectOne=linkDirectRandom[random(0, (linkDirectRandom.length-1))];
 
@@ -24,7 +24,7 @@ month[11] = 12;
 
 var date = new Date();
 var month = month[date.getMonth()];
-var year = date.d.getFullYear();
+var year = date.getFullYear();
 //--- random Post ---
 
 //news - 127 url
